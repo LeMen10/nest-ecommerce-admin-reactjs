@@ -1,0 +1,24 @@
+.wrapper{
+    display: flex;
+}
+.content {
+    width: 82%;
+}
+.children{
+    background-color: #f9fafb;
+    margin-top: 79px;
+    height: 100%;
+}
+.on-top-icon-wrap{
+    display: flex;
+    width: 40px;
+    background-color: var(--primary-color);
+    padding: 7px 14px;
+    border-radius: 50%;
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+}
+.on-top-icon-wrap:hover{
+    cursor: pointer;
+}
